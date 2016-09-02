@@ -15,7 +15,7 @@ for(int j=i+1;j<output2.length();j++)
 char b=output2.charAt(j);
 if(a==b)
 {
-output2.charAt(j)=='';
+output2.replace(b,'');
 }
 }
 }
